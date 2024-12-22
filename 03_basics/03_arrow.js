@@ -33,3 +33,15 @@ const chai =  () =>  {
     console.log(this);
 }
 //chai()
+
+//const addTwo = (num1, num2) => {
+  //return num1 + num2
+//}
+
+//const addTwo = (num1, num2) =>  num1 + num2
+
+//const addTwo = (num1, num2) =>  (num1 + num2)
+
+const addTwo = (num1, num2) =>  ({username: "Veer"})
+
+console.log(addTwo(99, 55));
